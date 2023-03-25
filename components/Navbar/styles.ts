@@ -1,8 +1,5 @@
 import styled from 'styled-components';
-
-const media = {
-  desktop: '@media(min-width: 1024px)',
-}
+import { media } from '@/utils/styles/breakpoints';
 
 export const NavbarWrapper = styled.header`
   background-color: rgba(var(--navbar-background));
