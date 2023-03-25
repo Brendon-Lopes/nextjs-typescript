@@ -1,13 +1,13 @@
 :root {
   --max-width: 1100px;
 
-  --white: #FDFDFD;
-  --background: #1B2033;
-  --navbar-background: #252835;
-  --accent-primary: #00B6DE;
-  --accent-secondary: #52E0FF;
-  --dark-blue-text: #1C2C44;
-  --gray-text: #373737;
+  --white: 253, 253, 253;
+  --background: 27, 32, 51;
+  --navbar-background: 37, 40, 53;
+  --accent-primary: 0, 182, 222;
+  --accent-secondary: 82, 224, 255;
+  --dark-blue-text: 28, 44, 68;
+  --gray-text: 55, 55, 55;
 
   font-family: 'Inter', sans-serif;
 }
