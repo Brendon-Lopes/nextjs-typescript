@@ -5,11 +5,16 @@ import Image from "next/image";
 export default function InfoSection() {
   return (
     <InfoSectionWrapper>
-      <article>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <button className="info-button">Quero mais informações</button>
-      </article>
+      <div className="info-section-container">
+        <article>
+          <h1>{title}</h1>
+          <p>{description}</p>
+          <button className="info-button">Quero mais informações</button>
+        </article>
+        <button className="whatsapp-button">
+          <Image src="/whatsapp.svg" alt="whatsapp" width={40} height={40} />
+        </button>
+      </div>
       <Image
         className="image"
         src="/omnitrafo.png"
@@ -17,9 +22,6 @@ export default function InfoSection() {
         width={568}
         height={817}
       />
-      <button className="whatsapp-button">
-        <Image src="/whatsapp.svg" alt="whatsapp" width={40} height={40} />
-      </button>
     </InfoSectionWrapper>
   )
 }

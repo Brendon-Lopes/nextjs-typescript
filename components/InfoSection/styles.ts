@@ -9,15 +9,29 @@ export const InfoSectionWrapper = styled.section`
   height: calc(100vh - 6rem);
   padding: 1rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+
+  .info-section-container {
+    ${media.desktop} {
+      max-width: var(--max-width);
+      position: relative;
+      height: 60%;
+      margin: auto;
+    }
+  }
 
   article {
-    height: 84%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 3.2rem;
     z-index: 100;
     position: relative;
+
+    ${media.desktop} {
+      width: 75%;
+    }
   }
 
   h1 {
@@ -36,11 +50,12 @@ export const InfoSectionWrapper = styled.section`
     border: none;
     background-color: rgba(var(--accent-primary));
     color: rgba(var(--white));
-    height: 3rem;
     border-radius: 0.3rem;
+    height: 3.125rem;
 
     ${media.desktop} {
       width: 17rem;
+      height: 3.125rem;
     }
   }
 
@@ -60,6 +75,7 @@ export const InfoSectionWrapper = styled.section`
     ${media.desktop} {
       width: 5rem;
       height: 5rem;
+      right: 0;
     }
   }
 
@@ -70,6 +86,13 @@ export const InfoSectionWrapper = styled.section`
     top: 8rem;
     right: -3rem;
     z-index: 1;
+
+    ${media.desktop} {
+      width: var(--image-original-width);
+      height: var(--image-original-height);
+      top: auto;
+      bottom: -2rem;
+    }
   }
 
   button {
