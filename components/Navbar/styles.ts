@@ -5,6 +5,10 @@ export const NavbarWrapper = styled.header`
   background-color: rgba(var(--navbar-background));
   display: flex;
   justify-content: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 999;
+  border: none;
 
   .navbar-container {
     width: 100%;
@@ -13,7 +17,6 @@ export const NavbarWrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
     ${media.desktop} {
       max-width: var(--max-width);
