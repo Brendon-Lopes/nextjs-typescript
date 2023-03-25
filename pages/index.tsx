@@ -1,4 +1,4 @@
-import { Navbar } from '@/components'
+import { InfoSection, Navbar } from '@/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
         <title>HVex</title>
       </Head>
       <Navbar />
+      <InfoSection />
     </>
   )
 }
