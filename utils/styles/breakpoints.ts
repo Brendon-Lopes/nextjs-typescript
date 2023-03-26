@@ -1,3 +1,3 @@
 export const media = {
-  desktop: '@media(min-width: 1024px)',
+  desktop: '@media(min-width: 1025px)',
 }
