@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="toggle-menu-button__bar" aria-hidden="true"></div>
         </button>
 
-        <nav className={`navbar ${isMenuOpen ? '' : 'hidden'}`} aria-hidden={!isMenuOpen}>
+        <nav className={`navbar ${isMenuOpen ? '' : 'hidden'}`}>
           <ul className="navbar__list">
             {navItems.map((item) => (
               <li key={item.id} className="navbar__item">
