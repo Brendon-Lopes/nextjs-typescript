@@ -1,6 +1,7 @@
 import { WelcomeSectionWrapper } from "./styles";
 import Image from "next/image";
 import { title, description, items } from '@/utils/welcomeSection'
+import { CheckList } from "@/components";
 
 export default function WelcomeSection() {
   return (
@@ -19,16 +20,10 @@ export default function WelcomeSection() {
 
         <article>
           <h2>{title}</h2>
+
           <p>{description}</p>
 
-          <ul className="list">
-            {items.map(({ id, text }) => (
-              <li key={id} className="list__item">
-                <Image src="/check.svg" width={24} height={24} alt="check" />
-                <p>{text}</p>
-              </li>
-            ))}
-          </ul>
+          <CheckList items={items} src="/check.svg" />
         </article>
       </div>
     </WelcomeSectionWrapper>
