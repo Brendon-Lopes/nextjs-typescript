@@ -58,7 +58,7 @@ export const InfoSectionWrapper = styled.section`
   .info-button {
     border: none;
     background-color: rgba(var(--accent-primary));
-    color: rgba(var(--white));
+    color: rgba(var(--dark-blue-text));
     border-radius: 0.3rem;
     height: 3.125rem;
 
