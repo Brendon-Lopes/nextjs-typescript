@@ -24,11 +24,10 @@ const image32 = {
 export const WelcomeSectionWrapper = styled.section`
   color: rgba(var(--gray-text));
   height: 120vh;
-  max-height: 800px;
 
   ${media.desktop} {
     height: 100vh;
-    max-height: 100vh;
+    max-height: 800px;
   }
 
   .welcome-section-container {
