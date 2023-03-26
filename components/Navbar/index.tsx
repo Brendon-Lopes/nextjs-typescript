@@ -11,7 +11,11 @@ export default function Navbar() {
       <section className="navbar-container">
         <Image className="logo" src="/hvex.svg" alt="Logo" width={123} height={57} />
 
-        <button className="toggle-menu-button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <button
+          className="toggle-menu-button"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+        >
           <div className="toggle-menu-button__bar" aria-hidden="true"></div>
           <div className="toggle-menu-button__bar" aria-hidden="true"></div>
           <div className="toggle-menu-button__bar" aria-hidden="true"></div>
