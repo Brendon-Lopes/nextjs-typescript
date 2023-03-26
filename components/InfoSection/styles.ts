@@ -13,11 +13,15 @@ export const InfoSectionWrapper = styled.section`
   justify-content: center;
 
   .info-section-container {
+    display: flex;
+    padding-bottom: 3.5rem;
+
     ${media.desktop} {
       max-width: var(--max-width);
       position: relative;
       height: 60%;
       margin: auto;
+      display: block;
     }
   }
 
@@ -25,17 +29,18 @@ export const InfoSectionWrapper = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 2rem;
     z-index: 100;
     position: relative;
 
     ${media.desktop} {
+      gap: 3.2rem;
       width: 75%;
     }
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 
     ${media.desktop} {
       font-size: 3rem;
@@ -43,7 +48,11 @@ export const InfoSectionWrapper = styled.section`
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+
+    ${media.desktop} {
+      font-size: 1.25rem;
+    }
   }
 
   .info-button {
@@ -71,19 +80,21 @@ export const InfoSectionWrapper = styled.section`
     position: absolute;
     right: 1rem;
     z-index: 100;
+    bottom: 2rem;
 
     ${media.desktop} {
       width: 5rem;
       height: 5rem;
       right: 0;
+      bottom: -7rem;
     }
   }
 
   .image {
-    width: calc(var(--image-original-width) / 1.4);
-    height: calc(var(--image-original-height) / 1.4);
+    width: calc(var(--image-original-width) / 1.6);
+    height: calc(var(--image-original-height) / 1.6);
     position: absolute;
-    top: 8rem;
+    top: 4rem;
     right: -3rem;
     z-index: 1;
 
