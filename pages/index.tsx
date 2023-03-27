@@ -1,4 +1,4 @@
-import { DescriptionSectionOne, InfoSection, Navbar, WelcomeSection } from '@/components'
+import { DescriptionSectionOne, DescriptionSectionTwo, InfoSection, Navbar, WelcomeSection } from '@/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       <InfoSection />
       <WelcomeSection />
       <DescriptionSectionOne />
+      <DescriptionSectionTwo />
     </>
   )
 }
