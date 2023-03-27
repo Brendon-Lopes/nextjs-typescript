@@ -5,7 +5,7 @@ export const List = styled.ul`
   .list__item {
     display: flex;
     align-items: center;
-    margin-bottom: 0.3rem;
+    margin-bottom: 1.5rem;
 
     > img {
       width: 1.1rem;
@@ -15,6 +15,7 @@ export const List = styled.ul`
     > p {
       font-size: 0.9rem;
       font-weight: 600;
+      color: rgba(var(--gray-text));
     }
 
     ${media.desktop} {
