@@ -108,6 +108,7 @@ export const InfoSectionWrapper = styled.section`
 
   button {
     font-size: 1.25rem;  
+    transition: all 0.2s ease-in-out;
 
     :hover {
       background-color: rgba(var(--accent-secondary));
