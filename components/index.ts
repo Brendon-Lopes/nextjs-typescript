@@ -6,6 +6,7 @@ import DescriptionSectionOne from "./DescriptionSectionOne";
 import DescriptionCard from "./DescriptionCard";
 import DescriptionSectionTwo from "./DescriptionSectionTwo";
 import DescriptionCardCircle from "./DescriptionCardCircle";
+import DescriptionSectionThree from "./DescriptionSectionThree";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   DescriptionCard,
   DescriptionSectionTwo,
   DescriptionCardCircle,
+  DescriptionSectionThree,
 };

@@ -1,5 +1,12 @@
-import { DescriptionSectionOne, DescriptionSectionTwo, InfoSection, Navbar, WelcomeSection } from '@/components'
 import Head from 'next/head'
+import {
+  DescriptionSectionOne,
+  DescriptionSectionThree,
+  DescriptionSectionTwo,
+  InfoSection,
+  Navbar,
+  WelcomeSection,
+} from '@/components'
 
 export default function Home() {
   return (
@@ -12,6 +19,7 @@ export default function Home() {
       <WelcomeSection />
       <DescriptionSectionOne />
       <DescriptionSectionTwo />
+      <DescriptionSectionThree />
     </>
   )
 }
