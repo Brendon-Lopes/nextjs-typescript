@@ -5,12 +5,12 @@ export const DescriptionSectionTwoWrapper = styled.section`
   --image-original-width: 568px;
   --image-original-height: 817px;
 
-  min-height: 100vh;
   padding: 1rem;
   position: relative;
 
   ${media.desktop} {
-    max-height: 100vh;
+    height: 100vh;
+    max-height: 800px;
     padding-top: 6rem;
   }
 
@@ -32,9 +32,9 @@ export const DescriptionSectionTwoWrapper = styled.section`
 
     ${media.desktop} {
       opacity: 1;
-      width: var(--image-original-width);
-      height: var(--image-original-height);
-      top: 6rem;
+      width: calc(var(--image-original-width) / 1.1);
+      height: calc(var(--image-original-height) / 1.1);
+      top: 3rem;
       bottom: -2rem;
     }
   }
