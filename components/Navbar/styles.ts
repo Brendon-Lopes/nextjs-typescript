@@ -79,6 +79,10 @@ export const NavbarWrapper = styled.header`
       -webkit-backdrop-filter: none;
       border-left: none;
     }
+
+    > ul > li > button {
+      margin-top: 1rem;
+    }
   }
 
   .navbar__list {
