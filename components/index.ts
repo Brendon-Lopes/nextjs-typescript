@@ -11,6 +11,7 @@ import TransparentButton from "./TransparentButton";
 import ContactUs from "./ContactUs";
 import FrequentQuestionsSection from "./FrequentQuestionsSection";
 import ExpandableCard from "./ExpandableCard";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   ContactUs,
   FrequentQuestionsSection,
   ExpandableCard,
+  Footer,
 };
