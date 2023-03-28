@@ -7,6 +7,7 @@ import {
   Navbar,
   WelcomeSection,
   ContactUs,
+  FrequentQuestionsSection,
 } from '@/components'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <DescriptionSectionTwo />
       <DescriptionSectionThree />
       <ContactUs />
+      <FrequentQuestionsSection />
     </>
   )
 }

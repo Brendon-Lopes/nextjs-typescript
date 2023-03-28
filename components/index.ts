@@ -9,6 +9,8 @@ import DescriptionCardCircle from "./DescriptionCardCircle";
 import DescriptionSectionThree from "./DescriptionSectionThree";
 import TransparentButton from "./TransparentButton";
 import ContactUs from "./ContactUs";
+import FrequentQuestionsSection from "./FrequentQuestionsSection";
+import ExpandableCard from "./ExpandableCard";
 
 export {
   Navbar,
@@ -22,4 +24,6 @@ export {
   DescriptionSectionThree,
   TransparentButton,
   ContactUs,
+  FrequentQuestionsSection,
+  ExpandableCard,
 };
