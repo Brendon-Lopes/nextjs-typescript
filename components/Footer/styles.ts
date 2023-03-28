@@ -11,10 +11,10 @@ export const FooterWrapper = styled.footer`
   margin-top: 2rem;
 
   ${media.desktop} {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 2rem 1rem;
   }
 
-  .footer-container {
+  .footer-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,6 +58,10 @@ export const FooterWrapper = styled.footer`
   }
 
   .socials-container {
+    > h4 {
+      margin-bottom: 1.8rem;
+    }
+
     ${media.desktop} {
       > h4 {
         margin-bottom: 2.5rem;
@@ -80,5 +84,39 @@ export const FooterWrapper = styled.footer`
     height: 3.125rem;
     background-color: rgba(var(--accent-primary));
     border-radius: 50%;
+  }
+
+  hr {
+    margin: 2rem 0;
+
+    ${media.desktop} {
+      margin-top: 4rem;
+    }
+  }
+
+  .policies-section {
+    ${media.desktop} {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .buttons-section {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    ${media.desktop} {
+      gap: 7.5rem;
+      margin: auto 0;
+    }
+  }
+
+  .policy-button {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: rgba(var(--white));
   }
 `;

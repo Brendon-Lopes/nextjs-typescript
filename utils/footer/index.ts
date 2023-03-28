@@ -34,3 +34,9 @@ export const social = {
     },
   ],
 };
+
+export const policies = {
+  rights: 'HVEX © 2021 | Todos os direitos reservados.',
+  privacy: 'Políticas de Privacidade',
+  terms: 'Termos de Uso',
+};
