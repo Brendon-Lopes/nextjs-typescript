@@ -7,6 +7,7 @@ import DescriptionCard from "./DescriptionCard";
 import DescriptionSectionTwo from "./DescriptionSectionTwo";
 import DescriptionCardCircle from "./DescriptionCardCircle";
 import DescriptionSectionThree from "./DescriptionSectionThree";
+import TransparentButton from "./TransparentButton";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   DescriptionSectionTwo,
   DescriptionCardCircle,
   DescriptionSectionThree,
+  TransparentButton,
 };

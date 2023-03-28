@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavbarWrapper } from "./styles";
 import Image from "next/image";
 import { navItems } from "@/utils/navbar/navItems";
+import TransparentButton from "../TransparentButton";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +32,9 @@ export default function Navbar() {
               </li>
             ))}
             <li>
-              <button className="buy-now-button">Comprar agora</button>
+              <TransparentButton>
+                Comprar agora
+              </TransparentButton>
             </li>
           </ul>
         </nav>
