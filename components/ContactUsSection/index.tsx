@@ -1,10 +1,10 @@
-import { ContactUsWrapper } from "./styles";
+import { ContactUsSectionWrapper } from "./styles";
 import { TransparentButton } from "@/components";
 import { title } from "@/utils/contactUs";
 
-export default function ContactUs() {
+export default function ContactUsSection() {
   return (
-    <ContactUsWrapper>
+    <ContactUsSectionWrapper>
       <div className="contact-us-container">
         <h2>{title}</h2>
         <hr />
@@ -12,6 +12,6 @@ export default function ContactUs() {
           Falar com um consultor
         </TransparentButton>
       </div>
-    </ContactUsWrapper>
+    </ContactUsSectionWrapper>
   )
 }

@@ -8,7 +8,7 @@ import DescriptionSectionTwo from "./DescriptionSectionTwo";
 import DescriptionCardCircle from "./DescriptionCardCircle";
 import DescriptionSectionThree from "./DescriptionSectionThree";
 import TransparentButton from "./TransparentButton";
-import ContactUs from "./ContactUs";
+import ContactUsSection from "./ContactUsSection";
 import FrequentQuestionsSection from "./FrequentQuestionsSection";
 import ExpandableCard from "./ExpandableCard";
 import Footer from "./Footer";
@@ -24,7 +24,7 @@ export {
   DescriptionCardCircle,
   DescriptionSectionThree,
   TransparentButton,
-  ContactUs,
+  ContactUsSection,
   FrequentQuestionsSection,
   ExpandableCard,
   Footer,

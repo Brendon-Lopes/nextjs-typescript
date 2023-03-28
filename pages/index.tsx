@@ -6,7 +6,7 @@ import {
   InfoSection,
   Navbar,
   WelcomeSection,
-  ContactUs,
+  ContactUsSection,
   FrequentQuestionsSection,
   Footer,
 } from '@/components'
@@ -23,7 +23,7 @@ export default function Home() {
       <DescriptionSectionOne />
       <DescriptionSectionTwo />
       <DescriptionSectionThree />
-      <ContactUs />
+      <ContactUsSection />
       <FrequentQuestionsSection />
       <Footer />
     </>
