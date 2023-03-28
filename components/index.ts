@@ -8,6 +8,7 @@ import DescriptionSectionTwo from "./DescriptionSectionTwo";
 import DescriptionCardCircle from "./DescriptionCardCircle";
 import DescriptionSectionThree from "./DescriptionSectionThree";
 import TransparentButton from "./TransparentButton";
+import ContactUs from "./ContactUs";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   DescriptionCardCircle,
   DescriptionSectionThree,
   TransparentButton,
+  ContactUs,
 };
