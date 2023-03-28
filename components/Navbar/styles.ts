@@ -65,6 +65,10 @@ export const NavbarWrapper = styled.header`
     -webkit-backdrop-filter: blur(7px);
     border-left: 1px solid rgba(var(--white), 0.37);
 
+    > ul > li > button {
+      margin-top: 1rem;
+    }
+
     ${media.desktop} {
       position: static;
       width: 100%;
@@ -78,10 +82,10 @@ export const NavbarWrapper = styled.header`
       backdrop-filter: none;
       -webkit-backdrop-filter: none;
       border-left: none;
-    }
 
-    > ul > li > button {
-      margin-top: 1rem;
+      > ul > li > button {
+        margin-top: 0;
+      }
     }
   }
 
