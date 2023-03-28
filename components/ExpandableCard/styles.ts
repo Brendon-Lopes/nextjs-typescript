@@ -15,12 +15,12 @@ export const ExpandableCardWrapper = styled.section`
 
     > h3 {
       max-width: 90%;
-      color: rgba(var(--dark-blue-text));
+      color: rgba(var(--dark-blue));
     }
 
     > svg {
       font-size: 1.1rem;
-      color: rgba(var(--dark-blue-text));
+      color: rgba(var(--dark-blue));
       min-width: 1.125rem;
     }
   }

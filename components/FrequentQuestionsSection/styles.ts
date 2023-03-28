@@ -2,7 +2,7 @@ import { media } from '@/utils/styles/breakpoints';
 import styled from 'styled-components';
 
 export const FrequentQuestionsSectionWrapper = styled.section`
-  color: rgba(var(--dark-blue-text));
+  color: rgba(var(--dark-blue));
   padding: 1rem;
   display: flex;
   flex-direction: column;

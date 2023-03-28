@@ -12,7 +12,7 @@ export const DescriptionCardCircleWrapper = styled.figure`
     width: 4.8rem;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: rgba(var(--dark-blue-text));
+    background-color: rgba(var(--dark-blue));
     display: flex;
     align-items: center;
     justify-content: center;

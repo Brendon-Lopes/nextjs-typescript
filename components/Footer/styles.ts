@@ -2,7 +2,7 @@ import { media } from '@/utils/styles/breakpoints';
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  background-color: rgba(var(--dark-blue-text));
+  background-color: rgba(var(--dark-blue));
   padding: 2rem 1rem;
   display: flex;
   flex-direction: column;

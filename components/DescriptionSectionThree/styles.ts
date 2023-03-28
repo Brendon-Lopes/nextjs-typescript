@@ -39,7 +39,7 @@ export const DescriptionSectionThreeWrapper = styled.section`
 
   h2 {
     font-size: 2rem;
-    color: rgba(var(--dark-blue-text));
+    color: rgba(var(--dark-blue));
     margin-bottom: 1.6rem;
   }
 

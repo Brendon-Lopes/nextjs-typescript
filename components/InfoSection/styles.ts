@@ -58,7 +58,7 @@ export const InfoSectionWrapper = styled.section`
   .info-button {
     border: none;
     background-color: rgba(var(--accent-primary));
-    color: rgba(var(--dark-blue-text));
+    color: rgba(var(--dark-blue));
     border-radius: 0.3rem;
     height: 3.125rem;
 
@@ -113,7 +113,7 @@ export const InfoSectionWrapper = styled.section`
     :hover {
       background-color: rgba(var(--accent-secondary));
       cursor: pointer;
-      color: rgba(var(--dark-blue-text));
+      color: rgba(var(--dark-blue));
     }
   }
 `;

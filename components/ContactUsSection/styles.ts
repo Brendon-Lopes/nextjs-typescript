@@ -2,7 +2,7 @@ import { media } from '@/utils/styles/breakpoints';
 import styled from 'styled-components';
 
 export const ContactUsSectionWrapper = styled.section`
-  background-color: rgba(var(--dark-blue-text));
+  background-color: rgba(var(--dark-blue));
   padding: 1rem;
   display: flex;
   justify-content: center;

@@ -74,7 +74,7 @@ export const DescriptionSectionTwoWrapper = styled.section`
     }
 
     > h3 {
-      color: rgba(var(--dark-blue-text));
+      color: rgba(var(--dark-blue));
       font-size: 2rem;
     }
 
