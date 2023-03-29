@@ -15,7 +15,7 @@ export default function ExpandableCard({ title, content }: IProps) {
   }
 
   return (
-    <ExpandableCardWrapper theme={{ expanded }}>
+    <ExpandableCardWrapper data-testid="expandable-card" theme={{ expanded }}>
       <section onClick={toggleExpand} className="question-container">
         <h3>{title}</h3>
         <SlArrowDown strokeWidth={40} />
