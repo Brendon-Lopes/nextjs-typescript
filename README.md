@@ -160,5 +160,3 @@ O projeto foi colocado no ar utilizando a Vercel, e pode ser acessado pelo segui
 
 [https://hvex-nextjs.vercel.app/](https://hvex-nextjs.vercel.app/)
 
-# CI / CD
-
