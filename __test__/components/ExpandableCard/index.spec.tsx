@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { ExpandableCard } from '@/components';
 
@@ -14,4 +14,18 @@ describe('ExpandableCard component', () => {
     expect(content).toBeInTheDocument();
     expect(icon).toBeInTheDocument();
   });
+
+  it('should toggle the card expansion on click', () => {
+    render(<ExpandableCard title="Title" content="Content" />);
+
+    const content = screen.getByText('Content');
+    const title = screen.getByTestId('expandable-card__title-section');
+
+    expect(content).toBeInTheDocument();
+    expect(content).toHaveStyle('display: block');
+
+    fireEvent.click(title);
+
+    expect(content).toHaveStyle('display: none');
+  })
 });
