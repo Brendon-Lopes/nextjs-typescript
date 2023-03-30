@@ -27,6 +27,19 @@ export const NavbarWrapper = styled.header`
     margin-top: -0.75rem;
   }
 
+  .toggle-button-container {
+    position: fixed;
+    top: 1.2rem;
+    right: 1rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    background: rgba(var(--navbar-background), 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
   .toggle-menu-button {
     width: 2.5rem;
     height: 1.75rem;
@@ -35,7 +48,6 @@ export const NavbarWrapper = styled.header`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 9999;
 
     ${media.desktop} {
       display: none;
