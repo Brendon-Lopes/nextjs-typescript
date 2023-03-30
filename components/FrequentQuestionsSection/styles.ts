@@ -8,6 +8,7 @@ export const FrequentQuestionsSectionWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: white;
 
   .frequent-questions-container {
     max-width: 48.125rem;

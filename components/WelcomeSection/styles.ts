@@ -23,6 +23,7 @@ const image32 = {
 
 export const WelcomeSectionWrapper = styled.section`
   color: rgba(var(--gray-text));
+  background-color: white;
 
   ${media.desktop} {
     height: 100vh;

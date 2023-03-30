@@ -8,7 +8,6 @@ export const FooterWrapper = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 
   ${media.desktop} {
     padding: 4rem 1rem 2rem 1rem;

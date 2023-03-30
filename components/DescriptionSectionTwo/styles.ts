@@ -8,6 +8,7 @@ export const DescriptionSectionTwoWrapper = styled.section`
   padding: 1rem;
   position: relative;
   z-index: 999;
+  background-color: white;
 
   ${media.desktop} {
     height: 100vh;
