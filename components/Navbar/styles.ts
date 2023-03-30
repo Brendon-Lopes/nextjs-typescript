@@ -104,13 +104,43 @@ export const NavbarWrapper = styled.header`
     font-size: 1.25rem;
     font-weight: 700;
 
-    :first-child {
+    &:first-child {
       color: rgba(var(--accent-primary));
+
+      .navbar__link {
+        &::after {
+          background-color: rgba(var(--accent-primary));
+        }
+      }
     }
 
     ${media.desktop} {
       font-size: 1rem;
       padding: 0 3rem;
+    }
+  }
+
+  .navbar__link {
+    position: relative;
+
+    &:hover {
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 1.4rem;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.2s ease-in-out;
     }
   }
 
