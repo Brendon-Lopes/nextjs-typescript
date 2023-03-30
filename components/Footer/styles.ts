@@ -93,6 +93,7 @@ export const FooterWrapper = styled.footer`
 
   hr {
     margin: 2rem 0;
+    border: 1px solid rgba(var(--white));
 
     ${media.desktop} {
       margin-top: 4rem;
