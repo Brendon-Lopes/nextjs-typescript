@@ -1,3 +1,4 @@
+import { media } from '@/utils/styles/breakpoints';
 import styled from 'styled-components';
 
 export const ExpandableCardWrapper = styled.section`
@@ -6,6 +7,11 @@ export const ExpandableCardWrapper = styled.section`
   box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.19);
   padding: 1rem;
   margin-bottom: 1.25rem;
+  cursor: pointer;
+
+  ${media.desktop} {
+    min-width: 770px;
+  }
 
   .question-container {
     display: flex;
@@ -22,6 +28,8 @@ export const ExpandableCardWrapper = styled.section`
       font-size: 1.1rem;
       color: rgba(var(--dark-blue));
       min-width: 1.125rem;
+      transform: ${props => props.theme.expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
+      transition: transform 0.2s ease-in-out;
     }
   }
 
