@@ -84,6 +84,12 @@ export const FooterWrapper = styled.footer`
     height: 3.125rem;
     background-color: rgba(var(--accent-primary));
     border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 8px 2px rgba(var(--accent-primary), 0.7);
+    }
   }
 
   hr {
