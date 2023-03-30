@@ -9,10 +9,14 @@ export const TransparentButtonWrapper = styled.button`
   padding: 0.85rem 2rem;
   background: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 
   &:hover {
     background: rgba(var(--accent-primary));
     color: rgba(var(--background));
+  }
+
+  &:active {
+    box-shadow: 0 0 8px 2px rgba(var(--accent-primary), 0.5);
   }
 `;
