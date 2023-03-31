@@ -8,6 +8,10 @@ export const ContactUsSectionWrapper = styled.section`
   justify-content: center;
   align-items: center;
 
+  ${media.desktop} {
+    padding: 2.8rem 0;
+  }
+
   .contact-us-container {
     display: flex;
     flex-direction: column;

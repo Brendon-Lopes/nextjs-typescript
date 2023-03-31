@@ -9,6 +9,11 @@ export const FrequentQuestionsSectionWrapper = styled.section`
   align-items: center;
   justify-content: center;
   background-color: white;
+  padding-bottom: 2.8rem;
+
+  ${media.desktop} {
+    padding-top: 0;
+  }
 
   .frequent-questions-container {
     max-width: 48.125rem;
