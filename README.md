@@ -1,7 +1,6 @@
 # Landing Page NextJS TypeScript
 
 # Sumário
-- [Landing Page NextJS TypeScript](#landing-page-nextjs-typescript)
 - [Sumário](#sumário)
 - [Sobre](#sobre)
 - [Principais Tecnologias utilizadas](#principais-tecnologias-utilizadas)
@@ -133,7 +132,7 @@ Foi usado o padrão de conventional commits para fazer o versionamento do projet
 </details>
 
 # Acessibilidade e SEO
-O projeto foi desenvolvido visando uma boa acessibilidade, HTML semântico e um bom SEO. Para isso, foi usado o Lighthouse do Google Chrome para verificar se o site estava seguindo boas práticas, tinha uma boa acessibilidade e SEO. Tendo nota máxima em todos.
+O projeto foi desenvolvido visando uma boa acessibilidade, HTML semântico e um bom SEO. Para isso, foi usado o Lighthouse do Google Chrome para verificar se o site estava seguindo esses conceitos. Tendo nota máxima em todos.
 
 ![Lighthouse](./readme_assets/lighthouse_score.png)
 
@@ -158,4 +157,11 @@ Cobertura:
 O projeto foi colocado no ar utilizando a Vercel, e pode ser acessado pelo seguinte link:
 
 [https://hvex-nextjs.vercel.app/](https://hvex-nextjs.vercel.app/)
+
+# Considerações finais
+Desenvolver um frontend em NextJS 13.0 foi um pequeno desafio para mim, que estava acostumado apenas com React comum, mas
+foi uma ótima oportunidade de aprendizado e evoluí muito no processo. Também ainda não havia utilizado styled components,
+mas nesse projeto pude perceber as vantagens dessa ferramenta, que com certeza irei aprofundar meus conhecimentos nela e
+utilizar mais. No fim, foi um projeto tranquilo e que gostei bastante de desenvolver e aprendi muito no processo, espero
+que gostem do resultado!
 
