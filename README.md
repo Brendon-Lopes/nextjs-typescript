@@ -9,6 +9,7 @@
 - [Testes](#testes)
   - [Testes unitários](#testes-unitários)
 - [Deploy](#deploy)
+- [Considerações finais](#considerações-finais)
 
 # Sobre
 O projeto é uma landing page desenvolvida com NextJS 13.0, TypeScript, Styled Components e Jest. O objetivo é mostrar minhas habilidades com essas tecnologias, de forma que o site tenha uma boa acessibilidade e um bom SEO. E mostrar também a organização do código e reutilização de componentes.
