@@ -71,6 +71,10 @@ export const NavbarWrapper = styled.header`
     left: 0;
     top: 0;
     height: 100vh;
+
+    ${media.desktop} {
+      display: none;
+    }
   }
 
   .navbar {
