@@ -13,8 +13,7 @@ export const DescriptionSectionThreeWrapper = styled.section`
   align-items: center;
 
   ${media.desktop} {
-    height: 100vh;
-    max-height: 800px;
+    min-height: max(100vh, 800px);
     padding-top: 6rem;
   }
 

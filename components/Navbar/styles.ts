@@ -38,6 +38,10 @@ export const NavbarWrapper = styled.header`
     justify-content: center;
     align-items: center;
     z-index: 9999;
+
+    ${media.desktop} {
+      display: none;
+    }
   }
 
   .toggle-menu-button {

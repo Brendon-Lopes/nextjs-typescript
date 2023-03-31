@@ -24,10 +24,13 @@ const image32 = {
 export const WelcomeSectionWrapper = styled.section`
   color: rgba(var(--gray-text));
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   ${media.desktop} {
-    height: 100vh;
-    max-height: 800px;
+    min-height: max(100vh, 800px);
   }
 
   .welcome-section-container {
@@ -52,7 +55,7 @@ export const WelcomeSectionWrapper = styled.section`
 
     ${media.desktop} {
       width: 50%;
-      height: 100%;
+      min-height: 100%;
     }
   }
 
@@ -101,7 +104,7 @@ export const WelcomeSectionWrapper = styled.section`
       width: ${image1.width}px;
       height: ${image1.height}px;
       left: 20%;
-      top: 6%;
+      top: -9rem;
       transform: translateX(0);
     }
   }

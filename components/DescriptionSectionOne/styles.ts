@@ -3,12 +3,13 @@ import { media } from '@/utils/styles/breakpoints';
 
 export const DescriptionSectionOneWrapper = styled.section`
   background-color: rgba(var(--background));
-  /* height: 100vh; */
-  /* max-height: 45.1rem; */
 
   ${media.desktop} {
-    height: 100vh;
-    max-height: 45.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: min(100vh, 600px);
+    padding: 6rem 0;
   }
 
   .description-section-one-container {

@@ -6,7 +6,7 @@ export const InfoSectionWrapper = styled.section`
   --image-original-height: 817px;
 
   background-color: rgba(var(--background));
-  height: calc(100vh - 6rem);
+  min-height: calc(100vh - 6rem);
   padding: 1rem;
   position: relative;
   display: flex;
