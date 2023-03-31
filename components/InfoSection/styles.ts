@@ -6,7 +6,7 @@ export const InfoSectionWrapper = styled.section`
   --image-original-height: 817px;
 
   background-color: rgba(var(--background));
-  min-height: calc(100vh - 6rem);
+  min-height: max(calc(100vh - 6rem), 800px);
   padding: 1rem;
   position: relative;
   display: flex;
@@ -17,8 +17,8 @@ export const InfoSectionWrapper = styled.section`
     padding-bottom: 3.5rem;
 
     ${media.desktop} {
-      max-width: var(--max-width);
       position: relative;
+      max-width: var(--max-width);
       height: 60%;
       margin: auto;
       display: block;
@@ -79,8 +79,8 @@ export const InfoSectionWrapper = styled.section`
     height: 4rem;
     position: absolute;
     right: 1rem;
-    z-index: 100;
     bottom: 2rem;
+    z-index: 100;
 
     ${media.desktop} {
       width: 5rem;
