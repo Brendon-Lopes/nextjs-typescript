@@ -24,6 +24,11 @@ export default function Navbar() {
           </button>
         </div>
 
+        <span
+          className={`navbar__separator ${isMenuOpen ? '' : 'hidden'}`}
+          aria-label="Fechar menu"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        ></span>
         <nav className={`navbar ${isMenuOpen ? '' : 'hidden'}`}>
           <ul className="navbar__list">
             {navItems.map((item) => (

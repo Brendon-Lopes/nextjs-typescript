@@ -61,6 +61,14 @@ export const NavbarWrapper = styled.header`
     border-radius: 0.2rem;
   }
 
+  .navbar__separator {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+  }
+
   .navbar {
     padding-top: 6.5rem;
     padding-left: 1rem;
