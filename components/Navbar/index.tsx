@@ -12,7 +12,7 @@ export default function Navbar() {
       <section className="navbar-container">
         <Image className="logo" src="/hvex.svg" alt="Logo" width={123} height={57} />
 
-        <div className={`toggle-button-container ${isMenuOpen ? '' : 'display-none'}`}>
+        <div className="toggle-button-container">
           <button
             className="toggle-menu-button"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
