@@ -143,7 +143,7 @@ Para os testes unitários, foi usado o Jest e o React Testing Library. Todos os 
 
 Para rodar os testes, basta rodar o comando:
 ```bash
-npm run test
+npm test
 ```
 
 Para rodar os testes e ver a cobertura, rode o comando:
